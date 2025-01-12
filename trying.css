@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  background-color: #eeeff1;
+  color: #1a1c20;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+header .logo span {
+  color: #1a1c20;
+  font-size: 40px;
+}
+
+header .navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+header .navbar ul a {
+  color: #1a1c20;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.15s;
+}
+
+header .btn {
+  text-decoration: none;
+  color: white;
+  background-color: palevioletred;
+  padding: 13px 16px;
+  font-weight: bold;
+  transition: color, background-color 0.15s;
+}
+
+header .navbar ul a:hover {
+  color: #4a76ee;
+}
+
+header .btn:hover {
+  background-color: white;
+  color: palevioletred;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  margin: 50px 0;
+  margin-bottom: 100px;
+  gap: 40px;
+}
+
+.hero-section .text {
+  flex: 5;
+}
+
+.hero-section .text h2 {
+  font-size: 45px;
+}
+
+.hero-section .text p {
+  margin-top: 10px;
+}
+
+.hero-section .text .links {
+  margin-top: 25px;
+}
+
+.hero-section .text .links a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 2px solid #1a1c20;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.hero-section .headshots {
+  flex: 3;
+  display: flex;
+  justify-content: right;
+}
+
+.hero-section .headshots img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
